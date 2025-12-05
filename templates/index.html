@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lilitha Nomaxayi - Professional Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="profile-section">
+          <div class="profile-image">
+            <!-- Replace with your photo -->
+            <img
+              src="{{ url_for('static', filename='images/profile.jpg') }}"
+              alt="Lilitha Nomaxayi"
+              id="profile-pic"
+            />
+          </div>
+          <h1>Lilitha Nomaxayi</h1>
+          <p class="tagline">
+            Aspiring Data Engineer | Aspiring Business Intelligence Specialist |
+            Python Developer
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section class="about">
+          <h2>About Me</h2>
+          <p>
+            Aspiring Data Engineer with a strong foundation in Python, SQL
+            Server, and business intelligence tools. Passionate about
+            transforming raw data into actionable insights through automated
+            data pipelines, ETL processes, and interactive visualizations.
+            Currently building expertise in database design, data warehousing,
+            and cloud-based data solutions while developing real-world
+            applications that solve business problems.
+          </p>
+        </section>
+
+        <section class="skills">
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-item">Python</div>
+            <div class="skill-item">SQL Server</div>
+            <div class="skill-item">Pandas</div>
+            <div class="skill-item">ETL Pipelines</div>
+            <div class="skill-item">Flask</div>
+            <div class="skill-item">Excel</div>
+            <div class="skill-item">Data Visualization</div>
+            <div class="skill-item">Power BI</div>
+            <div class="skill-item">PyODBC</div>
+            <div class="skill-item">Database Design</div>
+            <div class="skill-item">Data Cleaning</div>
+            <div class="skill-item">Faker Library</div>
+          </div>
+        </section>
+
+        <section class="projects">
+          <h2>Featured Projects</h2>
+
+          <div class="project-card">
+            <h3>Automated Database Population System</h3>
+            <ul>
+              <li>
+                Built a Python script using Faker library to generate 100+
+                realistic test records
+              </li>
+              <li>
+                Implemented SQL Server integration with PyODBC for automated
+                data insertion
+              </li>
+              <li>
+                Created dynamic table creation with proper error handling and
+                validation
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> Python, SQL Server, PyODBC, Pandas,
+                Faker
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <h3>Enterprise Data Cleaning Pipeline</h3>
+            <ul>
+              <li>
+                Developed automated ETL pipeline processing 25+ columns of
+                transactional data
+              </li>
+              <li>
+                Cleaned and standardized Excel datasets for business
+                intelligence reporting
+              </li>
+              <li>
+                Reduced manual data processing time by implementing batch
+                operations
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> Python, Pandas, OpenPyXL, Excel
+              </li>
+            </ul>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card-small">
+              <h3>Interactive Web Game</h3>
+              <p>
+                Full-stack web application with form handling, state management,
+                and dynamic UI components
+              </p>
+            </div>
+
+            <div class="project-card-small">
+              <h3>Professional Portfolio Website</h3>
+              <p>
+                Responsive personal website with custom CSS, deployed with clean
+                URL and SEO optimization
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h2>Get In Touch</h2>
+          <div class="contact-links">
+            <a href="mailto:nomaxayililitha@gmail.com" class="contact-btn">
+              Email</a
+            >
+            <a
+              href="https://www.linkedin.com/in/lilitha-nomaxayi-4b8b37264"
+              class="contact-btn"
+              target="_blank"
+            >
+              LinkedIn</a
+            >
+            <a
+              href="https://github.com/Tarlidzcode"
+              class="contact-btn"
+              target="_blank"
+            >
+              GitHub</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Lilitha Nomaxayi. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
