@@ -257,7 +257,6 @@ footer {
   font-size: 0.9em;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   h1 {
     font-size: 2em;
@@ -279,5 +278,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
